@@ -11,15 +11,14 @@
 </head>
 
 <body>
-    <div class="container-image"></div>
     <section class="container">
         <nav>
             <div class="logo">
                 <a href="#">
-                    <div id="logo-ellipse">
+                    <div class="logo-ellipse">
                         <img src="./image/Ellipse.svg" alt="Ellipse">
                     </div>
-                    <div id="logo-nis">
+                    <div class="logo-nis">
                         Nigerian Immigration
                         <br> Service
                     </div>
@@ -28,40 +27,108 @@
             <div class="nav-items">
                 <ul>
                     <li>
-                        <a href="#"> HOME</a>
+                        <a href="#" onclick="changeDisplayHome()"> HOME</a>
                     </li>
                     <li>
-                        <a href="#"> ABOUT US</a>
+                        <a href="#" onclick="changeDisplayAbout()"> ABOUT US</a>
                     </li>
                     <li>
-                        <a href="#"> CONTACT US</a>
+                        <a href="#" onclick="changeDisplayContact()"> CONTACT US</a>
                     </li>
                     <li>
-                        <a href="#"> FAQS</a>
+                        <a href="#" onclick="changeDisplayFaq()"> FAQS</a>
                     </li>
                 </ul>
             </div>
         </nav>
 
-        <div class="text">
-            <h1>Welcome to the Passport Office</h1>
-            <p>The passport office offers value based planning,
-                <br> taking you through a growth process which
-                <br>results in financial plan engaged with purpose.</p>
-        </div>
-        <div class="buttons">
-            <div class="learn-button">
-                <button type="button">LEARN MORE</button>
+        <!-- home section -->
+
+        <main class="home show">
+            <div class="container-image"></div>
+            <div class="text">
+                <h1>Welcome to the Passport Office</h1>
+                <p>The passport office offers value based planning,
+                    <br> taking you through a growth process which
+                    <br>results in financial plan engaged with purpose.</p>
             </div>
-            <div class="apply-button">
-                <button type="button">APPLY HERE</button>
+            <div class="buttons">
+                <div class="learn-button">
+                    <button type="button">LEARN MORE</button>
+                </div>
+                <div class="apply-button">
+                    <button type="button">APPLY HERE</button>
+                </div>
             </div>
-        </div>
+
+            <section class="last-div">
+                <p>Purpose. Planning. Advice. behaviour. Progress</p>
+                <hr>
+            </section>
+        </main>
+
+
+        <!-- about us section -->
+        <section class="about-us container hide">
+            <div class="container-image-about-us"></div>
+
+            <div class="about-us-heading">
+                <h1>About Us</h1>
+            </div>
+
+            <div id="about-us-text">
+                <p>
+                    The Nigeria Immigration Service (NIS) is the government agency that has been charged with the responsibility of migration
+                    management in Nigeria.
+
+                    <br> Over the years, the NIS has witnessed series of changes since it was extracted from the Nigeria Police
+                    Force (NPF) in 1958. The Immigration Department, as it was known then, was entrusted with the core immigration
+                    duties under the headship of the Chief Federal Immigration Officer (CFIO) and the first to sit on that
+                    chair was in the person of Mr. EH Harrison. The department in its emergent stages inherited the Immigration
+                    Ordinance of 1958 for its operation. At inception, the department had a narrow operational scope and
+                    maintained a low profile and simple approach in attaining the desired goals and objectives of government.
+                    During this period, only the Visa and Business Sections were
+                </p>
+
+            </div>
+        </section>
+
+        <!-- contact us section -->
+        <section class="contact-us container hide">
+
+            <div class="container-image-about-us"></div>
+
+            <div class="about-us-heading">
+                <h1>Contact Us</h1>
+            </div>
+
+            <div id="contact-us-text">
+                <p>
+                    contact Us
+                </p>
+
+            </div>
+        </section>
+
+
+        <!-- faq section -->
+        <section class="faq container hide">
+            <div class="container-image-about-us"></div>
+
+            <div class="about-us-heading">
+                <h1>FAQ</h1>
+            </div>
+
+            <div id="faq-text">
+                <p>
+                    faq
+                </p>
+
+            </div>
+        </section>
     </section>
-    <section class="last-div">
-        <p>Purpose. Planning. Advice. behaviour. Progress</p>
-        <hr>
-    </section>
+
+    <script src="./index.js"></script>
 </body>
 
 </html>
