@@ -67,8 +67,7 @@ div.container-image {
     margin: 0;
     z-index: 1000;
     position: absolute;
-    top: 0;
-    height: 200px;
+    top: 0; // height: 200px;
     position: absolute;
     width: 100%;
     opacity: 0.8;
@@ -173,6 +172,15 @@ div.text {
     }
     p {
         margin-top: 10px;
+    }
+}
+
+@media screen and(max-width: 501px) {
+    section .last-div {
+        margin-top: 37vh;
+    }
+    div.container-image {
+        height: 120vh;
     }
 }
 
