@@ -198,3 +198,11 @@ textarea:focus,
 input:focus {
   border: 2px solid #2E4416;
 }
+
+footer p,
+footer h5 {
+  font-size: 14px !important;
+}
+ .footer__date{
+   opacity: .5;
+ }
