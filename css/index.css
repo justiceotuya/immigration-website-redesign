@@ -135,7 +135,7 @@ button:hover {
 }
 
 .page-hero {
-  /* background-image: url('/images/lagos-half.png'); */
+  background-image: url('http://immigration.surge.sh/images/lagos-half.png');
   background-repeat: no-repeat;
   height: 20vw;
   -webkit-background-size: cover;
