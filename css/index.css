@@ -1,0 +1,206 @@
+/*!
+ * Start Bootstrap - Full Slider (https://startbootstrap.com/template-overviews/full-slider)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-slider/blob/master/LICENSE)
+ */
+
+body {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.navbar-brand {
+  width: 25%;
+}
+
+br {
+  margin: 0;
+}
+
+.navbar-brand img {
+  width: 24%;
+  position: relative;
+}
+
+#navbar-brand__text {
+  width: 10%;
+  display: inline-block;
+  font-size: 16px;
+  color: #000;
+  font-weight: bold;
+  position: relative;
+  top: 1vw;
+}
+
+a {
+  color: #7a7a7a;
+}
+
+.active a {
+  color: #2E4416 !important;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #2E4416;
+  font-weight: bold;
+}
+
+.active a:after {
+  content: "";
+  display: block;
+  margin: 0;
+  width: 24px;
+  padding-top: 2px;
+  border-bottom: 3px solid #2E4416;
+}
+
+.navbar {
+  color: #fff !important;
+  background-color: #fff;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #C4C4C4;
+}
+
+.carousel-indicators .active {
+  background-color: green;
+}
+
+.carousel-text {
+  position: absolute;
+  bottom: 25%;
+  color: #fff;
+}
+
+/* .carousel-text p {
+  font-size: 14px;
+  line-height: 200%;
+} */
+
+#home h1 {
+  color: #fff;
+}
+
+button.navbar-toggler {
+  background-color: #729746;
+  width: 10%;
+  height: 10%;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>");
+}
+
+button {
+  width: 245px;
+  height: 72px;
+  font-size: 30px;
+  padding: 1% 2%;
+  margin-right: 2%;
+  color: #fff;
+  background-color: #2e4416;
+  border: 3px solid #729746;
+}
+
+button:hover {
+  background-color: #729746;
+}
+
+#voting-steps {
+  background-color: #f4f4f4;
+}
+
+#home>section h1 {
+  color: #2E4416
+}
+
+.bg-dark {
+  background-color: #000 !important;
+}
+
+.page-hero {
+  background-image: url('/images/lagos-half.png');
+  background-repeat: no-repeat;
+  height: 20vw;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.page-hero h1 {
+  padding-top: 12%;
+  color: #fff;
+  /* font-size: 48px; */
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#banner {
+  background-color: #2e4416;
+  color: white;
+  margin-top: 10vw;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 48px;
+  color: #000;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 1em;
+  border-radius: 8px;
+  border-style: none;
+  border: 1px solid rgba(130, 130, 130, 0.28);
+  -webkit-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
+  height: 92px;
+  font-size: 24px;
+  color: #000;
+  outline: none;
+}
+
+textarea {
+  height: 133px;
+}
+
+::placeholder {
+  color: #000000;
+}
+
+textarea:focus,
+input:focus {
+  border: 2px solid #2E4416;
+}
