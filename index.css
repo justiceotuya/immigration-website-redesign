@@ -1,0 +1,382 @@
+/* line 18, index.scss */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif; }
+
+/* line 24, index.scss */
+a {
+  color: #ffffff;
+  text-decoration: #efe2ae; }
+
+/* line 29, index.scss */
+.logo-nis {
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.87);
+  font-weight: bolder;
+  display: inline;
+  margin: 0 auto; }
+
+/* line 37, index.scss */
+.hide {
+  display: none; }
+
+/* line 41, index.scss */
+.show {
+  display: block; }
+
+/* line 45, index.scss */
+li a:hover {
+  font-weight: bolder;
+  color: #2e4316; }
+
+/* line 50, index.scss */
+div.logo {
+  text-align: center; }
+
+/* line 54, index.scss */
+.buttons button:hover {
+  background-color: #efe2ae;
+  color: #2e4316; }
+
+/* line 59, index.scss */
+li:first-child {
+  font-weight: bolder; }
+
+/* line 63, index.scss */
+div.container-image {
+  background: url("./image/passport.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  z-index: 1000;
+  position: absolute;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  opacity: 0.8;
+  z-index: -1; }
+  /* line 75, index.scss */
+  div.container-image:before {
+    background-color: rgba(46, 68, 22, 0.87);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: -1; }
+
+/* line 86, index.scss */
+.container-image-about-us {
+  background: url("./image/passport-looking1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  z-index: 1000;
+  position: absolute;
+  top: 0;
+  height: 200px;
+  position: absolute;
+  width: 100%;
+  opacity: 0.8;
+  z-index: -1; }
+  /* line 99, index.scss */
+  .container-image-about-us:before {
+    background-color: rgba(46, 68, 22, 0.87);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: -1; }
+
+/* line 110, index.scss */
+h1 {
+  text-align: center;
+  font-size: 11vw;
+  font-size: 11vw;
+  z-index: 1002; }
+
+/* line 117, index.scss */
+li {
+  list-style-type: none;
+  display: block;
+  text-align: center; }
+
+/* line 123, index.scss */
+ul {
+  padding-left: 0px; }
+
+/* line 127, index.scss */
+p {
+  text-align: center;
+  font-size: 8vw;
+  z-index: 1002; }
+
+/* line 133, index.scss */
+.buttons {
+  text-align: center; }
+  /* line 135, index.scss */
+  .buttons button {
+    background-color: #2E4416;
+    border: none;
+    text-align: center;
+    font-size: 5vw;
+    z-index: 10002;
+    width: 70%;
+    padding: 4vw;
+    color: #ffffff; }
+  /* line 145, index.scss */
+  .buttons div.learn-button {
+    display: block;
+    margin-top: 10px; }
+  /* line 149, index.scss */
+  .buttons div.apply-button {
+    margin-top: 10px;
+    display: block; }
+
+/* line 155, index.scss */
+.last-div {
+  margin-top: 300px; }
+  /* line 157, index.scss */
+  .last-div p {
+    font-size: 24px;
+    text-align: center !important; }
+  /* line 161, index.scss */
+  .last-div hr {
+    color: transparent;
+    width: 20%;
+    border-bottom: 0.001px solid #000; }
+
+/* line 168, index.scss */
+div.text {
+  color: #ffffff; }
+  /* line 170, index.scss */
+  div.text h1 {
+    margin-bottom: 0px; }
+  /* line 173, index.scss */
+  div.text p {
+    margin-top: 10px; }
+
+@media screen and (max-width: 501px) {
+  /* line 179, index.scss */
+  section .last-div {
+    margin-top: 37vh; }
+
+  /* line 182, index.scss */
+  div.container-image {
+    height: 120vh; } }
+@media screen and (min-width: 502px) and (max-width: 801px) {
+  /* line 188, index.scss */
+  div.text {
+    margin-left: 66px;
+    margin-top: 10vw;
+    color: #ffffff; }
+    /* line 192, index.scss */
+    div.text h1 {
+      margin-bottom: 0px; }
+    /* line 195, index.scss */
+    div.text p {
+      margin-top: 10px; }
+
+  /* line 200, index.scss */
+  section.container h1 {
+    text-align: left;
+    font-size: 3.5vw; }
+  /* line 204, index.scss */
+  section.container p {
+    text-align: left;
+    font-size: 1.5vw;
+    z-index: 1002; }
+  /* line 209, index.scss */
+  section.container li {
+    list-style-type: none;
+    display: inline;
+    padding-right: 3vw; }
+  /* line 214, index.scss */
+  section.container a {
+    font-size: 2vw; }
+
+  /* line 218, index.scss */
+  .logo-nis {
+    font-size: 3vw;
+    color: rgba(255, 255, 255, 0.87);
+    font-weight: bolder;
+    display: inline-block;
+    position: relative;
+    top: -10px;
+    right: -10px; }
+
+  /* line 227, index.scss */
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+
+  /* line 232, index.scss */
+  nav .logo {
+    align-content: flex-start;
+    margin-right: 24px; }
+    /* line 235, index.scss */
+    nav .logo .logo-ellipse {
+      margin-top: 36px;
+      display: inline-block; }
+    /* line 239, index.scss */
+    nav .logo .logo-ellipse img {
+      width: 8vw;
+      display: inline-block; }
+
+  /* line 244, index.scss */
+  div.nav-items ul {
+    align-content: flex-end;
+    margin-top: 42px;
+    margin-right: 1.3vw; }
+
+  /* line 249, index.scss */
+  .buttons {
+    text-align: center;
+    padding-bottom: 0; }
+    /* line 252, index.scss */
+    .buttons button {
+      background-color: #2E4416;
+      border: none;
+      text-align: center;
+      font-size: 1.5vw;
+      z-index: 10002;
+      width: 15vw;
+      height: 4vw;
+      color: #ffffff;
+      float: left;
+      margin: 5vw 5px 0 66px;
+      padding: 0; }
+    /* line 265, index.scss */
+    .buttons div.learn-button {
+      display: inline; }
+    /* line 268, index.scss */
+    .buttons div.apply-button {
+      display: inline; }
+
+  /* line 272, index.scss */
+  div.logo {
+    text-align: left;
+    margin-left: 1%; }
+
+  /* line 276, index.scss */
+  div.container-image {
+    height: 70vw; } }
+@media screen and (min-width: 802px) {
+  /* line 282, index.scss */
+  div.container-image {
+    height: 50vw; }
+
+  /* line 285, index.scss */
+  .container-image-about-us {
+    height: 20vw; }
+
+  /* line 288, index.scss */
+  div.text {
+    margin-left: 66px;
+    margin-top: 119px;
+    color: #ffffff; }
+    /* line 292, index.scss */
+    div.text h1 {
+      margin-bottom: 0px; }
+    /* line 295, index.scss */
+    div.text p {
+      margin-top: 10px; }
+
+  /* line 301, index.scss */
+  section.container .home h1 {
+    text-align: left;
+    font-size: 3.5vw; }
+  /* line 305, index.scss */
+  section.container .home p {
+    text-align: left;
+    font-size: 1.5vw;
+    z-index: 1002; }
+  /* line 311, index.scss */
+  section.container li {
+    list-style-type: none;
+    display: inline;
+    padding-right: 3vw; }
+
+  /* line 317, index.scss */
+  .logo-nis {
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.87);
+    font-weight: bolder;
+    display: inline-block;
+    position: relative;
+    top: -10px; }
+
+  /* line 325, index.scss */
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+
+  /* line 330, index.scss */
+  nav .logo {
+    align-content: flex-start;
+    margin-right: 24px; }
+    /* line 333, index.scss */
+    nav .logo .logo-ellipse {
+      margin-top: 36px;
+      display: inline-block; }
+    /* line 337, index.scss */
+    nav .logo .logo-ellipse img {
+      width: 69px;
+      height: 69px;
+      display: inline-block; }
+
+  /* line 343, index.scss */
+  div.nav-items ul {
+    align-content: flex-end;
+    margin-top: 42px;
+    margin-right: 10vw; }
+
+  /* line 348, index.scss */
+  .buttons {
+    text-align: center;
+    padding-bottom: 0; }
+    /* line 351, index.scss */
+    .buttons button {
+      background-color: #2E4416;
+      border: none;
+      text-align: center;
+      font-size: 1.5vw;
+      z-index: 10002;
+      width: 15vw;
+      height: 4vw;
+      padding: 0;
+      color: #ffffff;
+      float: left;
+      margin: 60px; }
+    /* line 364, index.scss */
+    .buttons div.learn-button {
+      display: inline; }
+    /* line 367, index.scss */
+    .buttons div.apply-button {
+      display: inline; }
+
+  /* line 371, index.scss */
+  div.logo {
+    text-align: left;
+    margin-left: 1%; }
+
+  /* line 376, index.scss */
+  .about-us-heading h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 3.5vw; }
+
+  /* line 382, index.scss */
+  #about-us-text {
+    margin: 10% 20%; }
+    /* line 384, index.scss */
+    #about-us-text p {
+      text-align: left;
+      font-size: 15px;
+      line-height: 22.5px; } }
+
+/*# sourceMappingURL=index.css.map */
