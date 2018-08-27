@@ -116,6 +116,7 @@ button {
   color: #fff;
   background-color: #2e4416;
   border: 3px solid #729746;
+  cursor: pointer;
 }
 
 button:hover {
