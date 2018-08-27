@@ -38,22 +38,22 @@ a {
 }
 
 .active a {
-  color: #2E4416 !important;
+  color: #2e4416 !important;
   font-weight: bold;
 }
 
 a:hover {
-  color: #2E4416;
+  color: #2e4416;
   font-weight: bold;
 }
 
 .active a:after {
-  content: "";
+  content: '';
   display: block;
   margin: 0;
   width: 24px;
   padding-top: 2px;
-  border-bottom: 3px solid #2E4416;
+  border-bottom: 3px solid #2e4416;
 }
 
 .navbar {
@@ -75,7 +75,7 @@ a:hover {
   width: 10px;
   height: 10px;
   border-radius: 100%;
-  background-color: #C4C4C4;
+  background-color: #c4c4c4;
 }
 
 .carousel-indicators .active {
@@ -126,8 +126,8 @@ button:hover {
   background-color: #f4f4f4;
 }
 
-#home>section h1 {
-  color: #2E4416
+#home > section h1 {
+  color: #2e4416;
 }
 
 .bg-dark {
@@ -196,13 +196,61 @@ textarea {
 
 textarea:focus,
 input:focus {
-  border: 2px solid #2E4416;
+  border: 2px solid #2e4416;
 }
 
 footer p,
 footer h5 {
   font-size: 14px !important;
 }
- .footer__date{
-   opacity: .5;
- }
+.footer__date {
+  opacity: 0.5;
+}
+
+#social a {
+  transform: scale(1);
+  transition: 200ms ease-in-out;
+}
+
+#social a:hover {
+  transform: scale(1.1);
+  transition: 200ms ease-in-out;
+}
+
+@media screen and (min-width: 1084px) and (max-width: 1308px) {
+  button {
+    width: 200px;
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 839px) and (max-width: 1083px) {
+  button {
+    width: 180px;
+    font-size: 23px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 838px) {
+  button {
+    width: 167px;
+    font-size: 22px;
+    height: 60px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 767px) {
+  button {
+    width: 185px;
+    font-size: 22px;
+  }
+  .carousel-text {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .carousel-text {
+    text-align: center;
+  }
+}
